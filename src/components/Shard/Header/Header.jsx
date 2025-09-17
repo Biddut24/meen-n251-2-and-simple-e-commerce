@@ -51,7 +51,7 @@ const Header = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Item 1</a>
+              <a className="text-5xl text-primary">Item 1</a>
             </li>
             <li>
               <details>
