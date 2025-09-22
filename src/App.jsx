@@ -9,7 +9,7 @@ function App() {
     <div>
     <Header></Header>
       <Home></Home>
-  <Footer></Footer>
+ 
     </div>
   );
 }
