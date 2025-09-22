@@ -1,22 +1,36 @@
 import React from "react";
 import logo from "../../../assets/Logo.svg";
+import { Link, Links } from "react-router-dom";
 
 const Header = () => {
   const munuItems = (
     <>
-      
       <li>
-        <a className="">Shop</a>
+        <Link to="/home" className="">
+          Home
+        </Link>
+      </li>
+
+      <li>
+        <Link to="/shop" className="">
+          Shop
+        </Link>
+      </li>
+
+      <li>
+        <Link to="/Order" className="">
+          Order
+        </Link>
       </li>
       <li>
-      
-        <a className="">Order</a>
+        <Link to="/Order Review" className="">
+          Order Review
+        </Link>
       </li>
       <li>
-        <a className="">Order Review</a>
-      </li>
-      <li>
-        <a className="">Manage Inventory</a>
+        <Link to="/Manage Inventory" className="">
+          Manage Inventory
+        </Link>
       </li>
     </>
   );
@@ -51,7 +65,9 @@ const Header = () => {
             </ul>
           </div>
 
-          <img src={logo} alt="ema-jho" />
+          <Link to="/">
+            <img src={logo} alt="ema-jho"/>
+          </Link>
         </div>
         {/* ====== larger device ===== */}
         <div className="navbar-center hidden lg:flex">
