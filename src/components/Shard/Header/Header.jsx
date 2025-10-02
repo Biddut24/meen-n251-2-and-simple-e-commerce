@@ -37,7 +37,7 @@ const Header = () => {
 
   return (
     <nav>
-      <div className="fixed left-0 right-0 navbar justify-between bg-black shadow-sm text-white lg:px-35 h-20">
+      <div className="z-10 fixed left-0 right-0 navbar justify-between bg-black shadow-sm text-white lg:px-35 h-20">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
