@@ -15,7 +15,7 @@ const Shop = () => {
   // ====== loading time   website a loading  dekhno=======
   if (products.length < 1) {
     return (
-      <p className="p-25 text-3xl text-red-500">Loading................</p>
+      <p className="p-25 text-3xl text-red-500">Loading.................</p>
     );
   }
 
